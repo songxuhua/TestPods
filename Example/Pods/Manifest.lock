@@ -1,0 +1,16 @@
+PODS:
+  - iComeSKD (0.1.0)
+
+DEPENDENCIES:
+  - iComeSKD (from `../`)
+
+EXTERNAL SOURCES:
+  iComeSKD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iComeSKD: 4293b67e9cb347799ef1ab9fd1479975eea8ef02
+
+PODFILE CHECKSUM: 16b4cfa81db55de0a7384a8d5ecb6ed92cb2abc1
+
+COCOAPODS: 1.6.2

@@ -7,12 +7,16 @@
 //
 
 #import "QMAppDelegate.h"
+#import <iComeSKD/iComeSKD.h>
 
 @implementation QMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [TestiComeSDK dogApple];
+    
     return YES;
 }
 

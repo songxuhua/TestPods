@@ -25,12 +25,15 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '宋旭华' => '877340657@qq.com' }
-  s.source           = { :git => 'https://github.com/宋旭华/iComeSKD.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/songxuhua/TestPods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  #表示源文件的路径，这个路径是相对podspec文件而言的。（这属性下面单独讨论）
   s.source_files = 'iComeSKD/Classes/**/*'
+  #在这个属性中声明过的.h文件能够使用<>方法联想调用（这个是可选属性）
+  s.public_header_files = 'iComeSDK/Header/*.h'
+
   
   # s.resource_bundles = {
   #   'iComeSKD' => ['iComeSKD/Assets/*.png']

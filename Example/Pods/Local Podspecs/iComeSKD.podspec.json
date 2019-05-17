@@ -1,0 +1,23 @@
+{
+  "name": "iComeSKD",
+  "version": "0.1.0",
+  "summary": "A short description of iComeSKD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/宋旭华/iComeSKD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "宋旭华": "877340657@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/宋旭华/iComeSKD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iComeSKD/Classes/**/*",
+  "public_header_files": "iComeSDK/Header/*.h"
+}
